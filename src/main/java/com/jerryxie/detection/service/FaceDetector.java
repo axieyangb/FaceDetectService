@@ -1,4 +1,4 @@
-package com.jerryxie.dection.service;
+package com.jerryxie.detection.service;
 
 import java.io.File;
 import java.io.IOException;

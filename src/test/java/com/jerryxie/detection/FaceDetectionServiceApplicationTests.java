@@ -1,4 +1,4 @@
-package com.jerryxie.dection;
+package com.jerryxie.detection;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.jerryxie.dection.service.FaceDetector;
+import com.jerryxie.detection.service.FaceDetector;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
