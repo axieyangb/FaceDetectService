@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: face-detecti-service
+server:
+  port: 8004
