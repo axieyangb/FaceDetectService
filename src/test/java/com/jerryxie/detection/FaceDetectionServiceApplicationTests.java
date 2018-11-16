@@ -9,20 +9,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.jerryxie.detection.service.FaceDetector;
+import com.jerryxie.detection.service.FaceDetectorService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class FaceDetectionServiceApplicationTests {
 
     @Autowired
-    FaceDetector detector;
+    FaceDetectorService detector;
 
     @Test
     public void faceDetectorTest() {
         BasicConfigurator.configure();
         File img = new File("/Users/yangyangxie/Desktop/test.jpeg");
-        System.out.println(detector.faceNumber(img));
+        System.out.println(detector.getFaceNum(img));
     }
 
 }
